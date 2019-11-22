@@ -9,12 +9,12 @@ public class HomeController {
 	@RequestMapping("")
 	public String home() {
 		
-		return "home.jsp";
+		return "home.html";
 	}
 	@RequestMapping("/home")
 	public String home2() {
 		
-		return "home.jsp";
+		return "home.html";
 	}
 	@RequestMapping("/register")
 	public String register() {
